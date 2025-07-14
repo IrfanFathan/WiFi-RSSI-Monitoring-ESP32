@@ -1,13 +1,14 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
+#include <config.h>
 
 // Wi-Fi configurations
-const char *SSID = "STARVISION WIfi";  // Wifi SSID
-const char *password = "0plmnko9";     // Wifi password
+const char *SSID = WiFi_SSID;  // Wifi SSID
+const char *password = WiFi_PASSWORD;     // Wifi password
 
-// ThingSpeak configuartion
-const char *server = "http://api.thingspeak.com/update";
-String apikey = "6BL5FO7MGKR32RV5";
+// ThingSpeak configuration
+const char *server = ThingSpeak_SERVER;
+String apikey = ThingSpeak_API_KEY;
 
 void setup() {
   Serial.begin(115200);
