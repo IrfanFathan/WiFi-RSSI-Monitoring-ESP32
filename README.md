@@ -43,8 +43,4 @@ Co-founder, Motridox Robotics
 
 ---
 
-## 📄 License
-
-MIT License (or specify your own)
-
 
